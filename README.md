@@ -1,24 +1,93 @@
-# Academic Pages
+# Shantanu Kapoor - AI/ML Engineer Portfolio
 
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-green)](https://skapoor2024.github.io)
+[![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-red)](https://jekyllrb.com/)
+[![Academic Template](https://img.shields.io/badge/Template-Academic%20Pages-blue)](https://github.com/academicpages/academicpages.github.io)
 
-Academic Pages is a Github Pages template for academic websites.
+Professional portfolio website showcasing AI/ML engineering projects, research publications, and technical expertise.
 
-# Getting Started
+## 🎯 About This Portfolio
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+This repository contains the source code for my professional portfolio website, built using Jekyll and the Academic Pages template. The site highlights my experience in:
 
-See more info at https://academicpages.github.io/
+- **Enterprise AI Automation**: LLM agents for SAP Financial Accounting
+- **Computer Vision**: Medical image segmentation and satellite imagery processing  
+- **Research Innovation**: Published work in multilingual speech processing
+- **Production Systems**: Scalable ML pipelines and optimization
 
-## Running Locally
+## 🚀 Key Projects Featured
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+### Enterprise AI
+- **SAP FI Automation**: LLM-based agents using LangChain and FastAPI
+- **Real-time Integration**: SAP OData APIs for financial data processing
+- **Compliance Architecture**: Enterprise-grade audit trails and monitoring
+
+### Computer Vision Research
+- **Text-Guided Segmentation**: SwinUNETR + CLIP for medical imaging (Dice: 0.88)
+- **Satellite Pipeline Optimization**: 80%+ processing time reduction
+- **Materials Analysis**: Novel SAM enhancements for grain segmentation
+
+### Machine Learning Innovation
+- **Multilingual Speech Processing**: Novel similarity loss functions (ICASSP 2021)
+- **Domain Adaptation**: Cross-device robustness in spectroscopic analysis
+- **Performance Optimization**: HPC clusters and distributed computing
+
+## 🛠 Technical Stack
+
+**Frontend**: Jekyll, Liquid, HTML5, CSS3, JavaScript  
+**Hosting**: GitHub Pages  
+**Analytics**: Google Analytics (optional)  
+**SEO**: Meta tags, structured data, sitemap optimization
+
+## 📈 Features
+
+- **Responsive Design**: Mobile-optimized professional presentation
+- **SEO Optimized**: Search engine friendly structure and meta tags
+- **Fast Loading**: Optimized assets and efficient Jekyll build
+- **Professional Layout**: Clean, academic-style design suitable for recruiters
+- **Interactive Elements**: Project showcases with technical details
+
+## 📄 Content Structure
+
+```
+├── _pages/              # Main site pages
+│   ├── about.md         # Professional summary and value proposition
+│   ├── skills.md        # Technical skills and expertise
+│   ├── experience.md    # Professional timeline and achievements
+│   ├── contact.md       # Contact information and collaboration
+│   └── cv.md           # Downloadable resume format
+├── _portfolio/          # Project showcases
+│   ├── sap-fi-automation.md
+│   ├── medical-image-segmentation.md
+│   ├── satellite-imagery-pipeline.md
+│   └── ...
+├── _publications/       # Research publications
+│   ├── 2021-06-01-icassp-language-identification.md
+│   ├── 2023-08-01-text-guided-segmentation.md
+│   └── ...
+└── files/              # Downloadable documents (PDFs, etc.)
+```
+
+## 🎯 Professional Highlights
+
+- **Current Role**: AI Engineer at Hexaware Technologies
+- **Education**: MS Computer Science (University of Florida), BTech CSE (IIT Mandi)
+- **Publications**: ICASSP 2021, Under review at top-tier journals
+- **Expertise**: Enterprise AI, Computer Vision, NLP, Production ML Systems
+- **Location**: Gainesville, FL (Open to relocation)
+
+## 📞 Contact Information
+
+- **Email**: s.kapoor.ntk@outlook.com
+- **LinkedIn**: [linkedin.com/in/skapoor13](https://linkedin.com/in/skapoor13)
+- **GitHub**: [github.com/skapoor2024](https://github.com/skapoor2024)
+- **Website**: [skapoor2024.github.io](https://skapoor2024.github.io)
+
+## 🚀 Development & Deployment
+
+### Running Locally
+
+To preview changes locally before deployment:
 
 1. Clone the repository and made updates as detailed above.
 1. Make sure you have ruby-dev, bundler, and nodejs installed
