@@ -3,17 +3,17 @@ main:
   - title: "About"
     url: /about/
     
-  - title: "Projects"
-    url: /portfolio/
-    
   - title: "Experience"
     url: /experience/
     
-  - title: "Skills"
-    url: /skills/
+  - title: "Projects"
+    url: /portfolio/
     
   - title: "Publications"
     url: /publications/
+    
+  - title: "Skills"
+    url: /skills/
     
   - title: "Contact"
     url: /contact/
